@@ -1,0 +1,5 @@
+<div class="container" id="terms">
+    <h1>HODARI Loans Terms and Conditions</h1>
+    <p>Welcome to HODARI Loans Limited...</p>
+    <!-- Add full terms here as per the document you provided -->
+</div>

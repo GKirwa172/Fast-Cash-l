@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASTCASH LOANS LIMITED</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .loan-types {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .loan-type {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 45%;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 24px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FASTCASH LOANS LIMITED</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#loan-types">Loan Types</a>
+    <a href="#terms">Terms & Conditions</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="loan-types">
+    <h1>Our Loan Types</h1>
+    <div class="loan-types">
+        <div class="loan-type">
+            <h2>Personal Loans</h2>
+            <p>Flexible loans to meet your personal needs.</p>
+        </div>
+        <div class="loan-type">
+            <h2>Business Loans</h2>
+            <p>Get the funds to grow your business.</p>
+        </div>
+    </div>
+</div>
+
+<!-- WhatsApp Integration -->
+<a href="https://wa.me/+254783010327" class="whatsapp-button">Chat</a>
+
+</body>
+</html>     

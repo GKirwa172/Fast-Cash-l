@@ -1,0 +1,31 @@
+<div class="container" id="contact">
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" id="phone" name="phone" required><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="loan_amount">Loan Amount Applied For:</label><br>
+        <input type="number" id="loan_amount" name="loan_amount" required><br>
+
+        <label for="shares">Shares Capital to Submit:</label><br>
+        <input type="number" id="shares" name="shares" required><br>
+
+        <label for="disbursement">Preferred Disbursement Method:</label><br>
+        <select id="disbursement" name="disbursement" required>
+            <option value="mtn">MTN</option>
+            <option value="airtel">Airtel</option>
+            <option value="bank">Bank Account</option>
+        </select><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
